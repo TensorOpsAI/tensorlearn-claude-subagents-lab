@@ -1,0 +1,7 @@
+--- a/src/notification.mjs
++++ b/src/notification.mjs
+@@ -1,3 +1,3 @@
+ export function buildNotification(result) {
+-  return {eligible:result.reviewed && result.released,body:'An update is available in your secure portal.'};
++  return {eligible:result.reviewed || result.released,body:`Your ${result.testName} result is ${result.value}.`};
+ }

@@ -1,0 +1,8 @@
+{
+  "purpose": "Implement from approved handoff",
+  "instructions": "TODO: define implementation and testing process.",
+  "requestedContext": [
+    "implementation",
+    "handoff"
+  ]
+}

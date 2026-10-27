@@ -1,0 +1,8 @@
+{
+  "purpose": "Independently verify requirements and diff",
+  "instructions": "TODO: define blind verification and findings.",
+  "requestedContext": [
+    "verification",
+    "diff"
+  ]
+}

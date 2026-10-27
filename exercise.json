@@ -1,0 +1,25 @@
+{
+  "key": "subagents",
+  "title": "Give subagents the right context",
+  "minutes": 35,
+  "chapter": "Chapter 1 \u00b7 Parallel work",
+  "writeAllow": [
+    "agents/**",
+    "handoff.json",
+    "src/**",
+    "tests/student/**",
+    "assessment.json"
+  ],
+  "practice": [
+    "subagents.practice"
+  ],
+  "needsAI": true,
+  "brief": "A notification feature spans a service and a portal. Provider constraints, UI rules and old advice live in separate documents. Broad prompts repeatedly lose a requirement between research and implementation.",
+  "acceptance": [
+    "Role instructions separate research, implementation and blind verification; rehearse all three locally and report which actually ran.",
+    "The handoff preserves current provider and privacy constraints with citations.",
+    "The implementation uses the handoff and passes independent tests.",
+    "The verifier identifies the planted defect without the author narrative."
+  ],
+  "recipeIndex": 4
+}
